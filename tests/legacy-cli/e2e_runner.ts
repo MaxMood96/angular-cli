@@ -38,7 +38,7 @@ Error.stackTraceLimit = Infinity;
  * If unnamed flags are passed in, the list of tests will be filtered to include only those passed.
  */
 const argv = yargsParser(process.argv.slice(2), {
-  boolean: ['debug', 'ng-snapshots', 'noglobal', 'nosilent', 'noproject', 'verbose'],
+  boolean: ['debug', 'esbuild', 'ng-snapshots', 'noglobal', 'nosilent', 'noproject', 'verbose'],
   string: ['devkit', 'glob', 'ignore', 'reuse', 'ng-tag', 'tmpdir', 'ng-version'],
   configuration: {
     'dot-notation': false,
@@ -74,13 +74,9 @@ const testGlob = argv.glob || 'tests/**/*.ts';
 let currentFileName = null;
 
 const e2eRoot = path.join(__dirname, 'e2e');
-const allSetups = glob
-  .sync(path.join(e2eRoot, 'setup/**/*.ts'), { nodir: true })
-  .map((name) => path.relative(e2eRoot, name))
-  .sort();
+const allSetups = glob.sync('setup/**/*.ts', { nodir: true, cwd: e2eRoot }).sort();
 const allTests = glob
-  .sync(path.join(e2eRoot, testGlob), { nodir: true, ignore: argv.ignore })
-  .map((name) => path.relative(e2eRoot, name))
+  .sync(testGlob, { nodir: true, cwd: e2eRoot, ignore: argv.ignore })
   // Replace windows slashes.
   .map((name) => name.replace(/\\/g, '/'))
   .sort()
