@@ -188,7 +188,7 @@
     "prettier": "^2.0.0",
     "protractor": "~7.0.0",
     "puppeteer": "13.5.2",
-    "quicktype-core": "6.0.69",
+    "quicktype-core": "20.0.14",
     "regenerator-runtime": "0.13.9",
     "resolve-url-loader": "5.0.0",
     "rxjs": "6.6.7",
