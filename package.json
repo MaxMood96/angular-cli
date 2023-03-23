@@ -88,7 +88,7 @@
     "@babel/runtime": "7.17.9",
     "@babel/template": "7.16.7",
     "@bazel/bazelisk": "1.11.0",
-    "@bazel/buildifier": "5.0.1",
+    "@bazel/buildifier": "6.0.1",
     "@bazel/concatjs": "5.4.0",
     "@bazel/jasmine": "5.4.0",
     "@discoveryjs/json-ext": "0.5.7",
