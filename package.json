@@ -215,7 +215,7 @@
     "verdaccio-auth-memory": "^10.0.0",
     "webpack": "5.72.0",
     "webpack-dev-middleware": "5.3.1",
-    "webpack-dev-server": "4.8.1",
+    "webpack-dev-server": "5.0.0",
     "webpack-merge": "5.8.0",
     "webpack-subresource-integrity": "5.1.0",
     "yargs": "17.4.1",
