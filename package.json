@@ -172,7 +172,7 @@
     "minimatch": "5.0.1",
     "ng-packagr": "14.0.0-next.5",
     "node-fetch": "^2.2.0",
-    "npm-package-arg": "9.0.2",
+    "npm-package-arg": "12.0.0",
     "open": "8.4.0",
     "ora": "5.4.1",
     "pacote": "13.1.1",
