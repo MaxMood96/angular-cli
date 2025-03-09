@@ -196,7 +196,7 @@
     "sass-loader": "12.6.0",
     "sauce-connect-proxy": "https://saucelabs.com/downloads/sc-4.6.4-linux.tar.gz",
     "semver": "7.3.6",
-    "shelljs": "^0.8.5",
+    "shelljs": "^0.9.0",
     "source-map": "0.7.3",
     "source-map-loader": "3.0.1",
     "source-map-support": "0.5.21",
