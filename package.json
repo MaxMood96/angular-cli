@@ -150,7 +150,7 @@
     "https-proxy-agent": "5.0.0",
     "husky": "7.0.4",
     "ini": "3.0.0",
-    "inquirer": "8.2.2",
+    "inquirer": "8.2.7",
     "jasmine": "^4.0.0",
     "jasmine-core": "~4.1.0",
     "jasmine-spec-reporter": "~7.0.0",
