@@ -175,7 +175,7 @@
     "npm-package-arg": "9.0.2",
     "open": "8.4.0",
     "ora": "5.4.1",
-    "pacote": "13.1.1",
+    "pacote": "13.6.1",
     "parse5-html-rewriting-stream": "6.0.1",
     "pidtree": "^0.5.0",
     "pidusage": "^3.0.0",
